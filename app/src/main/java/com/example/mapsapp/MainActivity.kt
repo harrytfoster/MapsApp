@@ -33,7 +33,7 @@ fun MapContent() {
         factory = {
                 context ->
             MapView(context).apply()
-            {controller.setCenter(GeoPoint(51.05, -0.72))
+            {controller.setCenter(GeoPoint(50.9, -1.4))
                 controller.setZoom(14.0)
                 setTileSource(TileSourceFactory.MAPNIK)
                 isClickable =true }
